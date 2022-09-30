@@ -1,0 +1,37 @@
+ .nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .btn {
+    color:rgba(230, 191, 35, 0.867) ;
+    width: 200px;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(200, 162, 10, 0.867);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: transparent; 
+    border-radius: 70px;
+    border: none;
+    padding: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+
+.btn:hover {
+    border-radius: 80px;
+    background-color: #f2be24e6;
+    color: white;
+    
+}
+ .btn:focus{
+    background-color: rgba(0, 0, 0, 0.591);
+   
+ }
+

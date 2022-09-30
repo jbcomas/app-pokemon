@@ -1,0 +1,28 @@
+.btn_detail{
+    color:rgba(28, 28, 26, 0.867) ;
+    width: 200px;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(85, 81, 66, 0.867);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: transparent; 
+    border-radius: 70px;
+    border: none;
+    padding: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btn_detail:hover {
+    border-radius: 80px;
+    background-color: #4d4a40e6;
+    color: white;
+ }
+ .btn_detail:focus{
+    background-color: rgba(0, 0, 0, 0.591);
+ }

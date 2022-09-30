@@ -1,0 +1,90 @@
+.create{
+    height: 80vw;
+    background-image: url('../img/IMG_3298.JPG');
+    background-size: cover;
+}
+.create h1{
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input{
+    padding-left: 3px;
+    margin: 5px;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(85, 81, 66, 0.867);
+
+}
+.btn{
+    color:rgba(28, 28, 26, 0.867) ;
+    width: 200px;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(85, 81, 66, 0.867);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: transparent; 
+    border-radius: 70px;
+    border: none;
+    padding: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+
+.btn_create{
+    color:white ;
+    width: 200px;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(85, 81, 66, 0.867);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: green; 
+    border-radius: 70px;
+    border: none;
+    padding: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+.btn_create:disabled{
+    background-color:rgba(255, 0, 0, 0.802);
+    color: antiquewhite;
+    cursor:none
+ }
+ .list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+ }
+ .list_type{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    margin: 5px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 20px;
+ }
+ .btn_type{
+    border: none;
+    width: 10px;
+    background: transparent;
+    cursor: pointer;
+ }

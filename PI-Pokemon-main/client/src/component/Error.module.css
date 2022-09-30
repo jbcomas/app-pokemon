@@ -1,0 +1,16 @@
+.input{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 3px;
+        margin: 5px;
+        font-size: 16px;
+        width: 200px;
+        height: 30px;
+        border: 1.5px solid red ;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px rgba(85, 81, 66, 0.867);
+}
+.danger{
+    color:  red;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

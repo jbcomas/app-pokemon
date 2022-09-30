@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+.bg {
+  /* ../img/IMG_3327.JPG */
+    background-image: url('../img/7DCEF702-E3D7-4CF4-8DAF-112277CAF019.GIF');
+    height: 100vh;
+    background-position:top ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* object-fit: cover; */
+  }
+  .bg h1{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Titan One', 'cursive';
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.939);
+    text-decoration-skip:initial;
+    text-shadow: 10px 10px 10px rgba(230, 191, 35, 0.867);
+   
+  }
+  .btn {
+    color:rgba(230, 191, 35, 0.867) ;
+    width: 200px;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(200, 162, 10, 0.867);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: transparent; 
+    border-radius: 70px;
+    text-decoration: none;
+    border: none;
+    padding: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+
+}
+.btn:hover {
+    border-radius: 80px;
+    background-color: #f2be24e6;
+    color: white;
+   
+}
